@@ -11,8 +11,8 @@ Le dataset provient du site web https://opendata.paris.fr/explore/dataset/les-ar
 
 **Le critère de sélection des lignes de cette base est que la colonne ALLERGIE doit valoir 1. Ce qui signifie que l'arbre cause une allergie.**
 
-**Les modèles candidats pour la prédiction sont le SVD, le NMF et enfin le Co Clustering. Le modèle retenu étant le Co Clustering.**
+**Les modèles candidats pour la prédiction sont le SVD, le NMF et enfin le Co Clustering. Le modèle retenu étant le SVD.**
 
 **Pour géolocaliser, l'utilisation de la librairie Folium était recommandé.**
 
-**Performances : RMSE 0.8553, MAE 0.8548 du modèle Co Clustering pour la prédiction.**
+**Performances : RMSE 1.1253, MAE 0.6335 du modèle SVD pour la prédiction.**
